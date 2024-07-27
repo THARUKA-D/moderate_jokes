@@ -1,0 +1,19 @@
+{
+  "name": "moderate_jokes",
+  "version": "1.0.0",
+  "description": "Enable a moderator to access submitted jokes.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.1.4"
+  }
+}
