@@ -27,9 +27,9 @@ const authenticate = (req, res, next) => {
     req.token = token;
     next();
   } else {
-    res.sendStatus(403)
+    res.sendStatus(403);
   }
-}
+};
 
 module.exports = {
   applyMiddleware,
