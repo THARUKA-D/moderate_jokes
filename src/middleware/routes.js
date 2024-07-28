@@ -1,9 +1,9 @@
-const { getNewJoke, deleteJoke, addJoke, login } = require("../controllers/jokes-controller");
+const { getNewJoke, deleteJoke, addJoke, signIn } = require("../controllers/jokes-controller");
 
 const commonRoutes = [
 	{
-		path: "/login",
-		handler: login,
+		path: "/signIn",
+		handler: signIn,
 		method: "post",
 	},
 ];

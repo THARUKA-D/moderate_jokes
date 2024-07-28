@@ -5,8 +5,9 @@ const {
 	authenticatedRoutes,
 	middleware,
 } = require("./middleware");
+const { port } = require("./utils/environment");
 
-const PORT = 3001;
+const PORT = port;
 const app = express();
 
 applyMiddleware(middleware, app);
